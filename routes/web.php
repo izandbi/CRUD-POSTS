@@ -15,7 +15,7 @@ Route::view('/', 'index')->name('lobby');
 
 /*
 |--------------------------------------------------------------------------
-| Eventos
+| Eventossss
 |--------------------------------------------------------------------------
 */
 Route::get('/eventos', [EventoController::class, 'index'])->name('eventos.index');
